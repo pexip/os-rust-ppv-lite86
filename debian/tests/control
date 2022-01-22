@@ -1,0 +1,29 @@
+Test-Command: /usr/share/cargo/bin/cargo-auto-test ppv-lite86 0.2.16 --all-targets --all-features
+Features: test-name=rust-ppv-lite86:@
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test ppv-lite86 0.2.16 --all-targets 
+Features: test-name=librust-ppv-lite86-dev:default
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test ppv-lite86 0.2.16 --all-targets --no-default-features --features no_simd
+Features: test-name=librust-ppv-lite86-dev:no_simd
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test ppv-lite86 0.2.16 --all-targets --no-default-features --features simd
+Features: test-name=librust-ppv-lite86-dev:simd
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test ppv-lite86 0.2.16 --all-targets --no-default-features --features std
+Features: test-name=librust-ppv-lite86-dev:std
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable
+
+Test-Command: /usr/share/cargo/bin/cargo-auto-test ppv-lite86 0.2.16 --all-targets --no-default-features
+Features: test-name=librust-ppv-lite86-dev:
+Depends: dh-cargo (>= 18), @
+Restrictions: allow-stderr, skip-not-installable

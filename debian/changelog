@@ -1,0 +1,33 @@
+rust-ppv-lite86 (0.2.16-1) unstable; urgency=medium
+
+  * Team upload.
+  * Package ppv-lite86 0.2.16 from crates.io using debcargo 2.5.0
+
+ -- Peter Michael Green <plugwash@debian.org>  Sat, 22 Jan 2022 12:31:44 +0000
+
+rust-ppv-lite86 (0.2.6-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix build on s390x. (Closes: #961335)
+
+ -- Jan Niehusmann <jan@debian.org>  Sat, 28 Nov 2020 23:30:58 +0100
+
+rust-ppv-lite86 (0.2.6-1) unstable; urgency=medium
+
+  * Package ppv-lite86 0.2.6 from crates.io using debcargo 2.4.2
+
+ -- kpcyrd <git@rxv.cc>  Mon, 04 May 2020 13:11:00 +0200
+
+rust-ppv-lite86 (0.2.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package ppv-lite86 0.2.5 from crates.io using debcargo 2.2.10
+  * Source upload for migration
+
+ -- Sylvestre Ledru <sylvestre@debian.org>  Tue, 06 Aug 2019 18:11:25 +0200
+
+rust-ppv-lite86 (0.2.5-1) unstable; urgency=medium
+
+  * Package ppv-lite86 0.2.5 from crates.io using debcargo 2.2.10
+
+ -- kpcyrd <git@rxv.cc>  Sat, 13 Jul 2019 22:10:00 +0200
